@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    
+}
+
+.container {
+    min-height: 965px;
+}
+
+img {
+    width: 300px;
+    animation: DVD 6s linear infinite normal;
+    /* transform: translate(5%, 5%); */
+    transform: translate(980px, 680px);
+    /* animation: borde 2s linear infinite normal; */
+}
+
+
+
+
+
+@keyframes DVD {
+    0% {
+        transform: translate(980px, 680px);
+        
+    }
+    25% {
+        transform: translate(1550px, 200px);
+    }
+    50% {
+        transform: translate(500px, -65px);
+        
+    }
+    75% {
+        transform: translate(20px, 300px);
+    }
+    100% {
+        transform: translate(1000px, 700px);
+        
+    }
+}
+
+@keyframes borde {
+    0% {
+        border: 30px dashed rgb(76, 23, 221);
+    }
+    50% {
+        border: 20px dotted rgba(38, 235, 114, 0.787);
+    }
+    100% {
+        border: 3px solid rgb(255, 251, 0);
+    }
+
+}
